@@ -1,11 +1,11 @@
 
 
 all:
-	g++ -g -Wall -o main BankAccount.cpp Choose.cpp programs.cpp
+	g++ main.cpp BankAccount.cpp Choose.cpp
 
 run:
-	g++ -g -Wall -o main BankAccount.cpp Choose.cpp programs.cpp
+	g++ main.cpp BankAccount.cpp Choose.cpp
 
 clean:
 
-	rm BankAccount.cpp Choose.cpp programs.cpp
+	rm main.cpp BankAccount.cpp Choose.cpp

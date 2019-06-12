@@ -79,7 +79,7 @@ doorChoice ()
 
 
 int
-main ()
+start ()
 {
 
 

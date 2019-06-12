@@ -4,7 +4,7 @@ using namespace std;
 
 
 int
-main ()
+Bank ()
 {
   int original, deposit, withdrawl, total;
 
